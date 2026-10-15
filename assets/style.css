@@ -1,0 +1,11 @@
+:root{--bg:#0e0f11;--bg2:#17191c;--gold:#d4a23c;--gold2:#f3d27a;--txt:#e9e6df;--mut:#9a968d}
+*{box-sizing:border-box}body{margin:0;background:radial-gradient(ellipse at top,#1d2024,var(--bg) 60%);background-color:var(--bg);color:var(--txt);font:17px/1.6 "Helvetica Neue",Arial,sans-serif;min-height:100vh}
+a{color:var(--gold2)}header.top{display:flex;align-items:center;justify-content:space-between;max-width:1100px;margin:auto;padding:22px 24px;border-bottom:1px solid #2a2c30}
+header.top img{height:44px}nav a{color:var(--txt);text-decoration:none;margin-left:22px;font-size:15px;letter-spacing:.06em;text-transform:uppercase}nav a:hover{color:var(--gold2)}
+main{max-width:1100px;margin:auto;padding:40px 24px}h1,h2{font-weight:300;letter-spacing:.03em}h1{font-size:44px;margin:.2em 0}h1 b,h2 b{color:var(--gold);font-weight:600}
+.lead{color:var(--mut);font-size:20px;max-width:720px}.rule{width:80px;height:2px;background:linear-gradient(90deg,var(--gold2),var(--gold));margin:24px 0}
+.card{display:flex;gap:28px;align-items:center;background:var(--bg2);border:1px solid #2a2c30;border-radius:14px;padding:26px;text-decoration:none;color:inherit;transition:border-color .2s}.card:hover{border-color:var(--gold)}
+.card img{width:120px;height:120px;border-radius:24px}.badge{display:inline-block;border:1px solid var(--gold);color:var(--gold2);border-radius:999px;padding:4px 14px;font-size:13px;letter-spacing:.08em;text-transform:uppercase}
+.btn{display:inline-block;background:linear-gradient(135deg,var(--gold2),var(--gold));color:#111;font-weight:700;padding:14px 26px;border-radius:10px;text-decoration:none}.btn.off{opacity:.75;cursor:default}
+.shots{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:14px;margin:26px 0}.shots img{width:100%;border-radius:12px;border:1px solid #2a2c30}
+.hero{width:100%;border-radius:14px;border:1px solid #2a2c30}footer{max-width:1100px;margin:40px auto 0;padding:24px;border-top:1px solid #2a2c30;color:var(--mut);font-size:14px}footer a{color:var(--mut)}
