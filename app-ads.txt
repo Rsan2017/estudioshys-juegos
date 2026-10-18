@@ -1,9 +1,1 @@
-# app-ads.txt for juegos.estudioshys.com (Estudios HYS)
-# PLACEHOLDER — no live ad lines yet.
-# What it is: the IAB "Authorized Sellers for Apps" file. AdMob crawls the developer website
-# declared in the Google Play listing and looks for /app-ads.txt to verify who may sell ads in our apps.
-# What to do once the AdMob account exists: AdMob → Apps → View all apps → app-ads.txt → copy the line,
-# which looks like:
-#   google.com, pub-XXXXXXXXXXXXXXXX, DIRECT, f08c47fec0942fa0
-# Paste it below (without the leading '#'), commit, and make sure the Play listing website is
-# https://juegos.estudioshys.com . AdMob verification can take up to 24 h.
+google.com, pub-5570439201401548, DIRECT, f08c47fec0942fa0
